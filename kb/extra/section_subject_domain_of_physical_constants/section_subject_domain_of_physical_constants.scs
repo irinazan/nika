@@ -1,0 +1,23 @@
+section_subject_domain_of_physical_constants
+=> nrel_main_idtf:
+    [Раздел. Предметная область физических констант](* <- lang_ru;; *);
+    [Section. Subject domain of physical constants](* <- lang_en;; *);
+<- atomic_section;;
+
+section_subject_domain_of_physical_constants =
+[*
+    subject_domain_of_timezones
+    <- sc_node_struct;
+    => nrel_main_idtf:
+        [Предметная область физических констант](* <- lang_ru;; *);
+        [Subject domain of physical constants](* <- lang_en;; *);
+    <- subject_domain;
+    -> rrel_maximum_studied_object_class:
+        concept_physical_constant;
+    -> rrel_explored_relation:
+        nrel_physical_constant_name;;
+*];;
+
+section_subject_domain_of_physical_constants
+-> rrel_key_sc_element:
+    concept_physical_constant;;

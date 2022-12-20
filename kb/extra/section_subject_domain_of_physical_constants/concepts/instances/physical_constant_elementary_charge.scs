@@ -1,0 +1,6 @@
+math_constant_elementary_charge
+	<- concept_math_constant;
+	=> nrel_main_idtf: [elementary_charge] (* <- lang_en;; *);
+	=> nrel_main_idtf: [elementary_charge] (* <- lang_ru;; *);
+	=> nrel_math_constant_name: [elementary_charge] (* <- lang_en;; *);
+	<- concept_wit_entity;;

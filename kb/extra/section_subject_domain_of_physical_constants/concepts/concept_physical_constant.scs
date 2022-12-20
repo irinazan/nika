@@ -1,0 +1,21 @@
+concept_physical_constant
+<- sc_node_class;
+=> nrel_main_idtf:
+    [физическая константа](* <-lang_ru;; <-concept_text;; *);
+    [physical constant](* <-lang_en;; <-concept_text;; *);;
+
+concept_physical_constant
+<- rrel_key_sc_element: ...
+(*
+    <- sc_definition;;
+    => nrel_main_idtf: [Опр. (физическая константа)] (* <- lang_ru;; *);;
+    => nrel_main_idtf: [Def. (physical constant)] (* <- lang_en;; *);;
+    <- definition;;
+    <= nrel_sc_text_translation: ...
+    (*
+        -> rrel_example: 
+            [Физическая константа — величина, значение которой не меняется; в этом она противоположна переменной.](*<- lang_ru;;*);;
+        -> rrel_example: 
+            [A physicalematical constant is a key number whose value is fixed by an unambiguous definition, often referred to by a symbol, or by physicalematicians' names to facilitate using it across multiple physicalematical problems.](*<- lang_en;;*);;
+    *);;
+*);;

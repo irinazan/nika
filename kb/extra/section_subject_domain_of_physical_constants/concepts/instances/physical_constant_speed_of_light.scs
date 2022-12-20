@@ -1,0 +1,6 @@
+math_constant_speed_of_light
+	<- concept_math_constant;
+	=> nrel_main_idtf: [speed_of_light] (* <- lang_en;; *);
+	=> nrel_main_idtf: [speed_of_light] (* <- lang_ru;; *);
+	=> nrel_math_constant_name: [speed_of_light] (* <- lang_en;; *);
+	<- concept_wit_entity;;
